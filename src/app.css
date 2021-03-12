@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right, #68c4ee, #41a0d8, #227cbf, #1358a3, #193584); 
+ 
+}
+
+
+.container{
+  width: 500px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: turquoise;
+  border: 10px solid white;
+  -webkit-box-shadow: 7px 9px 38px -22px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 9px 38px -22px rgba(0,0,0,0.75);
+  box-shadow: 7px 9px 38px -22px rgba(0,0,0,0.75);
+
+}
+.calor{
+    background-image: linear-gradient(
+        to right top,
+        #eb3c3c,
+        #f56c2f,
+        #f8952a,
+        #f5bc36,
+        #ede054
+      );
+}
+h1 {
+  z-index: 2;
+}
+.action {
+  display: flex;
+  height: 50%;
+  justify-content: center;
+}
+button {
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 25px;
+  margin-right: 5px;
+  margin-bottom:25px ;
+  font-size: 18px;
+  -webkit-box-shadow: 7px 9px 38px -22px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 9px 38px -22px rgba(0,0,0,0.75);
+  box-shadow: 7px 9px 38px -22px rgba(0,0,0,0.75);
+}
+ .btn-calor:hover{
+    background-color:  #FFB74C;
+    cursor: pointer;
+} 
+.btn-frio:hover{
+    background-color: #81C8E4;
+    cursor: pointer;
+}
